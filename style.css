@@ -1,10 +1,68 @@
-*{
-  background-color:#282c37;
-  color:#d9e1e8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h3
- {
-  border-bottom-style:groove;
-  border-bottom-color: #2b90d9;
- 
- }
+.aswin,
+.columnt2 {
+  height: 20vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  text-shadow: 5px 5px grey;
+}
+.columnt2 {
+  background: grey;
+  font-size: 20px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tweets {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.recent {
+  background: black;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+a:hover {
+  background: whitesmoke;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
