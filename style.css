@@ -3,23 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-.aswin,
+.aswin{
+  background-color: black;
+  height: 15vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  border-bottom-style: groove;
+  color : #d9e1e8;
+}
 .columnt2 {
   height: 20vh;
   text-align: center;
   justify-content: center;
   display: flex;
   align-items: center;
-  font-size: 100px;
+  font-size: 70px;
   text-shadow: 5px 5px grey;
+    border-bottom-style: groove;
 }
 .columnt2 {
   background: grey;
   font-size: 20px;
+  border-bottom-style: groove;
 }
-.navbar {
+.navbar {                   /*Home, Tech */
   overflow: hidden;
-  background-color: black;
+  background-color:  #2b90d9;
 }
 .navbar a {
   float: left;
@@ -40,15 +51,15 @@
   clear: both;
 }
 .tweets {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), skyblue;
+  background: #2b90d9;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 70vh;
 }
 .recent {
-  background: black;
+  background:#282c37;
   color: white;
   text-align: center;
 }
