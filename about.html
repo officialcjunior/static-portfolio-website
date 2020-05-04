@@ -1,52 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="./style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,
-        initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Aswin C's Personal Page</title>
+  <title>Aswin's personal webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="./style.css" />
+
 </head>
+
 <body>
-    <h1 class="aswin">Aswin's corner of the web</h1>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="tech.html">Tech</a>
-        <a href="Things-I-Like.html"> Things I like </a>
-        <a href="Things-I'm-Currently-Doing.html">
-            Things I'm currently doing
-        </a>
-        <a href="about.html">About</a>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+
     </div>
-    <div class="columnt2">
-        <!-- Site Search -->
-        <form method="post" action="/cgi-bin/site-search.cgi">
-            <div>
-                <input type="hidden" name="case" value="0" />
-                <label>Site search: <input type="text" size="30" name="term" /></label>
-                <input type="submit" value="go" />
-                <br />
-                <a style="font-family: monospace" href="site-search/index.html">Advanced</a>
-            </div>
-        </form>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="Things-I-Like.html">Things I Like</a></li>
+        <li><a href="tech.html">Tech</a></li>
+        <li class="active"><a href="about.html">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Back to home</a></li>
+      </ul>
     </div>
-    <!-- Here begins column 2 Recent Pol-Notes -->
-    </div>
-    <br style="clear:both">
-    <h1 class="navbar">
-         Welcome to Aswin’s corner of the web.
-    </h1>
-    <p class="recent">I’m a computer science undergraduate student. </p>
-    <p class="recent">This is a portal of everything I do.</p>
-    <h3 class="recent">Connect with me</h3>
-    <p class="recent">I’m on <a href="https://t.me/officialcjunior">Telegram</a>
-    </p>
-    <p class="recent">Usually, I chat around on my <a href="https://oldbytes.space/@officialcjunior">Mastodon Blog</a>
-    </p>
-    <p class="recent">You can find the photos I took on my <a href="https://officialcjunior.vsco.co">VSCO blog</a></p>
-    <p class="recent">You can also check out my stories and writings at my <a
-            href="https://blogdecjunior.tumblr.com">Tumblr blog</a></p>
+  </div>
+</nav>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Contact me</h1>      
+    <p>Fill the form below and I'll get back to you.</p>
+  </div>
+
+ <form action="thankyou.html">
+  <center>
+    <div>
+    <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+</div>
+    <button type="submit" class="btn btn-primary">Submit</button> 
+
+</center>
+</form>
 
 </body>
 </html>

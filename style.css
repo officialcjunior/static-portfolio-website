@@ -1,79 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #282c37;
 }
-.aswin{
-  background-color: black;
-  height: 15vh;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 70px;
-  border-bottom-style: groove;
-  color : #d9e1e8;
+    
+    /* Add a gray background color and some padding to the footer */
+footer 
+{
+    background-color: ##9baec8;
+    padding: 25px;
 }
-.columnt2 {
-  height: 20vh;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-size: 70px;
-  text-shadow: 5px 5px grey;
-    border-bottom-style: groove;
+.carousel{
+    background: #282c37;
+    margin-top: 20px;
 }
-.columnt2 {
-  background: grey;
-  font-size: 20px;
-  border-bottom-style: groove;
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
-.navbar {                   /*Home, Tech */
-  overflow: hidden;
-  background-color:  #2b90d9;
-}
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 15px;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.tweets {
-  background: #2b90d9;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-}
-.recent {
-  background:#282c37;
-  color: white;
-  text-align: center;
-}
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-a:hover {
-  background: whitesmoke;
-  color: black;
-}
-a {
-  text-decoration: none;
-  color: inherit;
+.bs-example{
+  margin: 20px;
 }

@@ -1,76 +1,130 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="./style.css" />
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,
-        initial-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <title>Aswin C's Personal Page</title>
-  </head>
-
-  <body>
-    <h1 class="aswin">Aswin's corner of the web</h1>
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="tech.html">Tech</a>
-      <a href="Things-I-Like.html"> Things I like </a>
-      <a href="Things-I'm-Currently-Doing.html">
-        Things I'm currently doing
-      </a>
-      <a href="about.html">About</a>
-    </div>
-
-    <div class="columnt2">
-      <!-- Site Search -->
-      <form method="post" action="/cgi-bin/site-search.cgi">
-        <div>
-          <input type="hidden" name="case" value="0" />
-          <label>Site search: <input type="text" size="30" name="term"/></label>
-          <input type="submit" value="go" />
-          <br />
-          <a style="font-family: monospace" href="site-search/index.html"
-            >Advanced</a
-          >
-        </div>
-      </form>
-    </div>
-    <!-- Here begins column 2 Recent Pol-Notes -->
+<html lang="en">
+<head>
+  <title>Aswin's personal webpage</title>
   
-    <div class="row">
-      <h1 class="recent">Most recent tweets and Tumblr posts</h1>
-      <div class="column tweets">
-        <a
-          class="twitter-timeline"
-          data-width="300"
-          data-height="400"
-          data-theme="light"
-          href="https://twitter.com/cjuniorstweets?ref_src=twsrc%5Etfw"
-          >Tweets by cjuniorstweets</a
-        >
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
-        ></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 
-        
-      </div>
-    <div class="column">
-        <div class="tumblr-post" data-width="1000" data-width="500"
-            data-href="https://embed.tumblr.com/embed/post/jtnDIZ-38igIDCWMJ1FBig/613281975922475008"
-            data-did="af542a32d356573a4d443142f5f8ff246b43cc83">
-            <a
-                href="https://blogdecjunior.tumblr.com/post/613281975922475008/adventures-with-light-vol-1">https://blogdecjunior.tumblr.com/post/613281975922475008/adventures-with-light-vol-1</a>
-    
-            <script async src="https://assets.tumblr.com/post.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+
+ 
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+                        
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="Things-I-Like.html">Things I Like</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="tech.html">Tech</a>
+      </li>      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+  </div>
+</nav>
+  </div>
+</nav>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 id="top">Aswin's corner on the Web</h1>      
+    <p>I'm a computer science undergraduate and here's some of the work I do</p>
+  </div>
+</div>
+  
+
+<div class="bs-example">
+<div id="myCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://im.vsco.co/aws-us-west-2/6e75b4/67534858/5b433cca347fef30b8000004/vsco5b433ceee6d51.jpg?w=480" alt="First Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>I like computers</h5>
+                    <p>I like the hacker culture and loves tinkering around with computers and electronics </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://im.vsco.co/aws-us-west-2/6e75b4/67534858/5c07b146347fef55e5000001/vsco5c07b15865d91.jpg?w=480" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Music</h5>
+                    <p>I also love music and know a thing or two about the piano</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://im.vsco.co/aws-us-west-2/6e75b4/67534858/5b9daebc347fef2d89000001/vsco5b9daed14cb50.jpg?w=480" alt="Third Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Literature</h5>
+                    <p>I love to read and also write some stories sometimes</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://im.vsco.co/aws-us-west-2/6e75b4/67534858/5bf17390347fef7652000009/vsco5bf173b15f67e.jpg?w=480" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Travel and Photography</h5>
+                    <p>Photography is also one of my passion</p>
+                </div>
+            </div>
+
+
+
         </div>
 
+
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
     </div>
-  </body>
+</div>
+
+<!-- </div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+  </div>
+</div><br><br> --->
+
+<footer class="container-fluid text-center">
+  <p>Aswin's corner on the web ©</p>
+</footer>
+
+</body>
 </html>
