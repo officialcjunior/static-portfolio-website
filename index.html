@@ -15,6 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   
+  <script src="script.js"></script>
 
  
   <link rel="stylesheet" href="./style.css" />
@@ -41,17 +42,51 @@
       </li>      <li class="nav-item">
         <a class="nav-link" href="about.html">About</a>
       </li>
+      </li>      <li class="nav-item">
+		<button type="button" class="btn btn-link" onclick="darkmode()">Toggle Dark Mode</button>
+      </li>      
   </div>
 </nav>
   </div>
 </nav>
-<div class="jumbotron">
+<div class="jumbotron bg-dark text-white">
   <div class="container text-center">
     <h1 id="top">Aswin's corner on the Web</h1>      
-    <p>I'm a computer science undergraduate and here's some of the work I do</p>
+    <p >I'm a computer science undergraduate and here's some of the work I do</p>
   </div>
 </div>
-  
+
+<!-- Scroll indicator -->
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+
+
+<!-- Flip board -->
+
+<center>  
+ <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://avatars2.githubusercontent.com/u/29057155?s=460&u=58771aef272ec36a41fdc05e3a897c4f81ac5616&v=4" alt="Avatar" style="width:200px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Picture of myself!</h1>
+    </div>
+  </div>
+</div> 
+</center>
+
+
+<center>
+<p> I'm Aswin, and welcome to my website! <br> I am mostly near my laptop and I'm into technology, pianos, security, people and caring. </p>
+
+<span style='font-size:60px;'>&#10024;</span>
+
+</center>
+<!-- Carousel-->
 
 <div class="bs-example">
 <div id="myCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
